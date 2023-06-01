@@ -1,0 +1,115 @@
+{
+  "challenges": [
+    {
+      "name": "Introduction to Weightlifting",
+      "exercises": [
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1369.gif",
+          "id": "1369",
+          "name": "band two legs calf raise - (band under both legs) v. 2",
+          "reps": 10,
+          "set": 3
+        },
+        {
+          "id": "0009",
+          "name": "leverage machine",
+          "reps": 10,
+          "set": 3,
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif"
+        },
+        {
+          "id": "0968",
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
+          "name": "band alternating biceps curl",
+          "reps": 10,
+          "set": 3
+        }
+      ]
+    },
+    {
+      "name": "Rest and Recovery"
+    },
+    {
+      "name": "Lower Body Focus",
+      "exercises": [
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0987.gif",
+          "id": "0987",
+          "name": "band one arm single leg split squat",
+          "reps": 10,
+          "set": 3
+        },
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1410.gif",
+          "id": "1410",
+          "name": "barbell lateral lunge",
+          "reps": 10,
+          "set": 3
+        },
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2287.gif",
+          "id": "2287",
+          "name": "lever alternate leg press",
+          "reps": 10,
+          "set": 3
+        }
+      ]
+    },
+    {
+      "name": "Rest and Recovery"
+    },
+    {
+      "name": "Upper Body Focus",
+      "exercises": [
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0748.gif",
+          "id": "0748",
+          "name": "smith bench press",
+          "reps": 10,
+          "set": 3
+        },
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0050.gif",
+          "id": "0050",
+          "name": "barbell incline shoulder raise",
+          "reps": 10,
+          "set": 3
+        },
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2330.gif",
+          "id": "2330",
+          "name": "cable lat pulldown full range of motion"
+        }
+      ]
+    },
+    {
+      "name": "Rest and Recovery"
+    },
+    {
+      "name": "Full Body Workout",
+      "exercises": [
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0300.gif",
+          "id": "0300",
+          "name": "dumbbell deadlift",
+          "reps": 10,
+          "set": 3
+        },
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1286.gif",
+          "id": "1286",
+          "name": "dumbbell one arm chest fly on exercise ball",
+          "reps": 10,
+          "set": 3
+        },
+        {
+          "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0690.gif",
+          "id": "0690",
+          "name": "seated lower back stretch",
+          "reps": 10,
+          "set": 3
+        }
+      ]
+    }
+  ]
+}
