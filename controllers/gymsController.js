@@ -49,7 +49,6 @@ class Controller {
         } catch (error) {
             next(error)
         }
-
     }
 
 }
