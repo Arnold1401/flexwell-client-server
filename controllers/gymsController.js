@@ -52,34 +52,6 @@ class Controller {
 
     }
 
-    // static async getExercisesByTarget(req, res, next) {
-
-    //     const { target } = req.params;
-
-    //     try {
-    //         const options = {
-    //             method: 'GET',
-    //             url: `https://exercisedb.p.rapidapi.com/exercises/target/${target}`,
-    //             headers: {
-    //                 'X-RapidAPI-Key': '46223922d4msh2ca5fd58008bf09p191622jsn4e6bf15cc0bd',
-    //                 'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
-    //             }
-    //         };
-
-    //         const response = await axios(options);
-    //         const result = response.data;
-
-    //         result
-    //             ? res.status(200).json({ status: 200, data: [result], message: "Success" })
-    //             : res.status(404).json({ status: 404, message: "Exercise is not found" });
-    //     } catch (error) {
-    //         console.error(error);
-    //         res.status(500).json({ status: 500, message: error.message });
-    //     }
-
-    // }
-
-
 }
 
 
