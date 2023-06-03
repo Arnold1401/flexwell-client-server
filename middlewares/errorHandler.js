@@ -10,7 +10,7 @@ module.exports = (error, req, res, next) => {
   ) {
     res.status(400).json({ message: error.errors[0].message });
   } else if (
-    error.name === 'Email is required'
+    error.name === 'Username is required'
     || error.name === 'Password is required'
   ) {
     res.status(400).json({ message: error.name });

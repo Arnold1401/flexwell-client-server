@@ -12,5 +12,7 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "linebreak-style": "off",
+        "no-throw-literal": "off"
     }
 }
