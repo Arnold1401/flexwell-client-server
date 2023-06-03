@@ -117,7 +117,6 @@ describe('User Entities', () => {
         id: 1,
         email: 'john@gmail.com',
         username: 'johndoe',
-        password: 'secret',
         fullName: 'John Doe',
         gender: 'Male',
         role: 'Client',

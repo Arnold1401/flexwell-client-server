@@ -1,9 +1,8 @@
 const express = require('express');
+const registerRoutes = require('./auth');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.send('hello world');
-});
+router.use('/pub', registerRoutes);
 
 module.exports = router;
