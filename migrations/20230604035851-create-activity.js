@@ -13,10 +13,10 @@ module.exports = {
       },
       status: {
         type: Sequelize.ENUM({
-          values: ['Finish', 'Unfinish'],
+          values: ['Finished', 'Unfinished'],
         }),
         allowNull: true,
-        defaultValue: 'Unfinish',
+        defaultValue: 'Unfinished',
       },
       date: {
         type: Sequelize.DATE,

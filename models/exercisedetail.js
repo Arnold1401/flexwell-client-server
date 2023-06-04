@@ -52,7 +52,7 @@ module.exports = (sequelize, DataTypes) => {
         },
       },
     },
-    set: {
+    totalSet: {
       type: DataTypes.INTEGER,
       allowNull: false,
       validate: {

@@ -23,7 +23,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      set: {
+      totalSet: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
