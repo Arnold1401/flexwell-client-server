@@ -2,7 +2,7 @@ const axios = require("axios");
 const { Op } = require("sequelize");
 
 
-class Controller {
+class BodyPartController {
 
     static async allBodyParts(req, res, next) {
 
@@ -20,7 +20,7 @@ class Controller {
                     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com"
                 }
             });
-            return res.json(response.data);
+            res.json(response.data);
         } catch (err) {
             next(err);
         }
@@ -42,17 +42,18 @@ class Controller {
 
             const response = await axios(options);
             const result = response.data;
-
-            result
-                ? res.status(200).json(result)
-                : res.status(404).json({ message: "Exercise is not found" });
+            if (!result) {
+                throw {
+                    name: 'Data not found',
+                }
+            }
+            res.status(200).json(result)
         } catch (error) {
             next(error)
         }
-
     }
 
 }
 
 
-module.exports = Controller;
+module.exports = BodyPartController;
