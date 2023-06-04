@@ -1,0 +1,410 @@
+[
+  {
+    "bodyPartId": "1369",
+    "bodyPart": "lower legs",
+    "name": "band two legs calf raise - (band under both legs) v. 2",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 1
+  },
+  {
+    "bodyPartId": "0009",
+    "bodyPart": "chest",
+    "name": "leverage machine",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 1
+  },
+  {
+    "bodyPartId": "0968",
+    "bodyPart": "upper arms",
+    "name": "band alternating biceps curl",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 1
+  },
+  {
+    "bodyPartId": "0987",
+    "bodyPart": "upper legs",
+    "name": "band one arm single leg split squat",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 3
+  },
+  {
+    "bodyPartId": "1410",
+    "bodyPart": "upper legs",
+    "name": "barbell lateral lunge",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 3
+  },
+  {
+    "bodyPartId": "2287",
+    "bodyPart": "upper legs",
+    "name": "lever alternate leg press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 3
+  },
+  {
+    "bodyPartId": "0748",
+    "bodyPart": "chest",
+    "name": "smith bench press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 5
+  },
+  {
+    "bodyPartId": "0050",
+    "bodyPart": "chest",
+    "name": "barbell incline shoulder raise",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 5
+  },
+  {
+    "bodyPartId": "2330",
+    "bodyPart": "back",
+    "name": "cable lat pulldown full range of motion",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 5
+  },
+  {
+    "bodyPartId": "0300",
+    "bodyPart": "upper legs",
+    "name": "dumbbell deadlift",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 7
+  },
+  {
+    "bodyPartId": "1286",
+    "bodyPart": "chest",
+    "name": "dumbbell one arm chest fly on exercise ball",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 7
+  },
+  {
+    "bodyPartId": "0690",
+    "bodyPart": "back",
+    "name": "seated lower back stretch",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 7
+  },
+  {
+    "bodyPartId": "1369",
+    "bodyPart": "lower legs",
+    "name": "band two legs calf raise - (band under both legs) v. 2",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 8
+  },
+  {
+    "bodyPartId": "0009",
+    "bodyPart": "chest",
+    "name": "leverage machine",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 8
+  },
+  {
+    "bodyPartId": "0968",
+    "bodyPart": "upper arms",
+    "name": "band alternating biceps curl",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 8
+  },
+  {
+    "bodyPartId": "0987",
+    "bodyPart": "upper legs",
+    "name": "band one arm single leg split squat",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 10
+  },
+  {
+    "bodyPartId": "1410",
+    "bodyPart": "upper legs",
+    "name": "barbell lateral lunge",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 10
+  },
+  {
+    "bodyPartId": "2287",
+    "bodyPart": "upper legs",
+    "name": "lever alternate leg press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 10
+  },
+  {
+    "bodyPartId": "0748",
+    "bodyPart": "chest",
+    "name": "smith bench press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 12
+  },
+  {
+    "bodyPartId": "0050",
+    "bodyPart": "chest",
+    "name": "barbell incline shoulder raise",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 12
+  },
+  {
+    "bodyPartId": "2330",
+    "bodyPart": "back",
+    "name": "cable lat pulldown full range of motion",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 12
+  },
+  {
+    "bodyPartId": "0300",
+    "bodyPart": "upper legs",
+    "name": "dumbbell deadlift",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 14
+  },
+  {
+    "bodyPartId": "1286",
+    "bodyPart": "chest",
+    "name": "dumbbell one arm chest fly on exercise ball",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 14
+  },
+  {
+    "bodyPartId": "0690",
+    "bodyPart": "back",
+    "name": "seated lower back stretch",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 14
+  },
+  {
+    "bodyPartId": "1369",
+    "bodyPart": "lower legs",
+    "name": "band two legs calf raise - (band under both legs) v. 2",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 15
+  },
+  {
+    "bodyPartId": "0009",
+    "bodyPart": "chest",
+    "name": "leverage machine",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 15
+  },
+  {
+    "bodyPartId": "0968",
+    "bodyPart": "upper arms",
+    "name": "band alternating biceps curl",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 15
+  },
+  {
+    "bodyPartId": "0987",
+    "bodyPart": "upper legs",
+    "name": "band one arm single leg split squat",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 17
+  },
+  {
+    "bodyPartId": "1410",
+    "bodyPart": "upper legs",
+    "name": "barbell lateral lunge",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 17
+  },
+  {
+    "bodyPartId": "2287",
+    "bodyPart": "upper legs",
+    "name": "lever alternate leg press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 17
+  },
+  {
+    "bodyPartId": "0748",
+    "bodyPart": "chest",
+    "name": "smith bench press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 19
+  },
+  {
+    "bodyPartId": "0050",
+    "bodyPart": "chest",
+    "name": "barbell incline shoulder raise",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 19
+  },
+  {
+    "bodyPartId": "2330",
+    "bodyPart": "back",
+    "name": "cable lat pulldown full range of motion",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 19
+  },
+  {
+    "bodyPartId": "0300",
+    "bodyPart": "upper legs",
+    "name": "dumbbell deadlift",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 21
+  },
+  {
+    "bodyPartId": "1286",
+    "bodyPart": "chest",
+    "name": "dumbbell one arm chest fly on exercise ball",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 21
+  },
+  {
+    "bodyPartId": "0690",
+    "bodyPart": "back",
+    "name": "seated lower back stretch",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 21
+  },
+  {
+    "bodyPartId": "1369",
+    "bodyPart": "lower legs",
+    "name": "band two legs calf raise - (band under both legs) v. 2",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 22
+  },
+  {
+    "bodyPartId": "0009",
+    "bodyPart": "chest",
+    "name": "leverage machine",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 22
+  },
+  {
+    "bodyPartId": "0968",
+    "bodyPart": "upper arms",
+    "name": "band alternating biceps curl",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 22
+  },
+  {
+    "bodyPartId": "0987",
+    "bodyPart": "upper legs",
+    "name": "band one arm single leg split squat",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 24
+  },
+  {
+    "bodyPartId": "1410",
+    "bodyPart": "upper legs",
+    "name": "barbell lateral lunge",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 24
+  },
+  {
+    "bodyPartId": "2287",
+    "bodyPart": "upper legs",
+    "name": "lever alternate leg press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 24
+  },
+  {
+    "bodyPartId": "0748",
+    "bodyPart": "chest",
+    "name": "smith bench press",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 26
+  },
+  {
+    "bodyPartId": "0050",
+    "bodyPart": "chest",
+    "name": "barbell incline shoulder raise",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 26
+  },
+  {
+    "bodyPartId": "2330",
+    "bodyPart": "back",
+    "name": "cable lat pulldown full range of motion",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 26
+  },
+  {
+    "bodyPartId": "0300",
+    "bodyPart": "upper legs",
+    "name": "dumbbell deadlift",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 28
+  },
+  {
+    "bodyPartId": "1286",
+    "bodyPart": "chest",
+    "name": "dumbbell one arm chest fly on exercise ball",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 28
+  },
+  {
+    "bodyPartId": "0690",
+    "bodyPart": "back",
+    "name": "seated lower back stretch",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 28
+  },
+  {
+    "bodyPartId": "1369",
+    "bodyPart": "lower legs",
+    "name": "band two legs calf raise - (band under both legs) v. 2",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 30
+  },
+  {
+    "bodyPartId": "0009",
+    "bodyPart": "chest",
+    "name": "leverage machine",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 30
+  },
+  {
+    "bodyPartId": "0968",
+    "bodyPart": "upper arms",
+    "name": "band alternating biceps curl",
+    "repetition": 10,
+    "totalSet": 3,
+    "exerciseId": 30
+  }
+]
