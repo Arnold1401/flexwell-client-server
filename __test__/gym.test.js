@@ -2,7 +2,7 @@ const request = require('supertest');
 const express = require('express');
 const app = express();
 
-const { allBodyParts, getBodyPartsById } = require('../controllers/gymsController'); // Sesuaikan dengan path dan nama file Controller Anda
+const { allBodyParts, getBodyPartsById } = require('../controllers/bodypart'); // Sesuaikan dengan path dan nama file Controller Anda
 
 // Endpoint untuk allBodyParts
 app.get('/api/bodyparts', allBodyParts);
