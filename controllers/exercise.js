@@ -57,6 +57,9 @@ class AuthController {
         const exerciseDetail = exerciseDetails.filter((exc) => exc.exerciseId === ex.id);
         ex.exercises = exerciseDetail || null;
         ex.activity = activity || null;
+        const totalSet = AuthController.generateTotalSet(exerciseDetail);
+        ex.totalSet = totalSet
+        ex.totalDuration = AuthController.generateTotalDuration(totalSet);
       });
 
       res.json(exercises);
@@ -99,6 +102,15 @@ class AuthController {
     } catch (error) {
       next(error);
     }
+  }
+
+  static generateTotalSet(exerciseDetail) {
+    const totalSets = exerciseDetail.map((ex) => ex.totalSet);
+    return totalSets.length ? totalSets.reduce((total, num) => total + num) : 0;
+  }
+
+  static generateTotalDuration(totalSet) {
+    return Math.round(totalSet * 3.5);
   }
 }
 
