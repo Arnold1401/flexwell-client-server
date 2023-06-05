@@ -1,5 +1,7 @@
 const axios = require('axios');
 
+const { EXERCISE_DB_KEY } = process.env;
+
 class BodyPartController {
   static async allBodyParts(req, res, next) {
     try {
@@ -12,7 +14,7 @@ class BodyPartController {
       }
       const response = await axios.get(url, {
         headers: {
-          'X-RapidAPI-Key': '46223922d4msh2ca5fd58008bf09p191622jsn4e6bf15cc0bd',
+          'X-RapidAPI-Key': EXERCISE_DB_KEY,
           'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
         },
       });
@@ -30,7 +32,7 @@ class BodyPartController {
         method: 'GET',
         url: `https://exercisedb.p.rapidapi.com/exercises/exercise/${id}`,
         headers: {
-          'X-RapidAPI-Key': '46223922d4msh2ca5fd58008bf09p191622jsn4e6bf15cc0bd',
+          'X-RapidAPI-Key': EXERCISE_DB_KEY,
           'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
         },
       };
