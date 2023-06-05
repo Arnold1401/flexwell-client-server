@@ -4,6 +4,7 @@ const exerciseController = require('../controllers/exercise');
 const router = express.Router();
 
 router.get('/exercises', exerciseController.getExercises);
+router.post('/exercises', exerciseController.createExercise);
 router.get('/exercises/:id', exerciseController.getExerciseDetailById);
 router.delete('/exercises/:id', exerciseController.deleteExerciseById);
 

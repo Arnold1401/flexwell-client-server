@@ -125,6 +125,17 @@ class AuthController {
   static generateTotalDuration(totalSet) {
     return Math.round(totalSet * 3.5);
   }
+
+  static async createExercise(req, res, next) {
+    try {
+      const { name } = req.body;
+      await Exercise.create({ name });
+
+      res.status(201).json({ message: ' exercise created successfully' });
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = AuthController;
