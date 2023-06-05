@@ -58,7 +58,7 @@ class AuthController {
         ex.exercises = exerciseDetail || null;
         ex.activity = activity || null;
         const totalSet = AuthController.generateTotalSet(exerciseDetail);
-        ex.totalSet = totalSet
+        ex.totalSet = totalSet;
         ex.totalDuration = AuthController.generateTotalDuration(totalSet);
       });
 
@@ -99,6 +99,19 @@ class AuthController {
       exercise = exercise.toJSON();
       exercise.activity = activity || null;
       res.json(exercise);
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  static async deleteExerciseById(req, res, next) {
+    try {
+      const data = await Exercise.findByPk(req.params.id);
+      if (!data) throw { name: 'Not Found' };
+      await Exercise.destroy({
+        where: { id: req.params.id },
+      });
+      res.status(200).json({ message: `id ${data.id} successfuly deleted` });
     } catch (error) {
       next(error);
     }
