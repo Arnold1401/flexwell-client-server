@@ -2,7 +2,7 @@
 const { Op } = require('sequelize');
 const { Exercise, Activity, ExerciseDetail } = require('../models');
 
-class AuthController {
+class ExerciseController {
   static async getExercises(req, res, next) {
     try {
       const { type } = req.query;
@@ -57,9 +57,9 @@ class AuthController {
         const exerciseDetail = exerciseDetails.filter((exc) => exc.exerciseId === ex.id);
         ex.exercises = exerciseDetail || null;
         ex.activity = activity || null;
-        const totalSet = AuthController.generateTotalSet(exerciseDetail);
+        const totalSet = ExerciseController.generateTotalSet(exerciseDetail);
         ex.totalSet = totalSet
-        ex.totalDuration = AuthController.generateTotalDuration(totalSet);
+        ex.totalDuration = ExerciseController.generateTotalDuration(totalSet);
       });
 
       res.json(exercises);
@@ -88,6 +88,10 @@ class AuthController {
         },
       });
 
+      if (!exercise) {
+        throw { name: 'Data not found' }
+      }
+
       const activity = await Activity.findOne({
         where: {
           exerciseId: exercise.id,
@@ -114,4 +118,4 @@ class AuthController {
   }
 }
 
-module.exports = AuthController;
+module.exports = ExerciseController;

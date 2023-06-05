@@ -16,7 +16,6 @@ module.exports = {
           values: ['Finished', 'Unfinished'],
         }),
         allowNull: true,
-        defaultValue: 'Unfinished',
       },
       date: {
         type: Sequelize.DATE,

@@ -23,6 +23,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      gifUrl: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       totalSet: {
         type: Sequelize.INTEGER,
         allowNull: false,

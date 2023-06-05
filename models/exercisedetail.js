@@ -1,4 +1,3 @@
-/* istanbul ignore file */
 /* eslint-disable */
 'use strict';
 const {
@@ -49,6 +48,18 @@ module.exports = (sequelize, DataTypes) => {
         },
         notNull: {
           msg: 'bodyPart is required',
+        },
+      },
+    },
+    gifUrl: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        notEmpty: {
+          msg: 'gifUrl is required',
+        },
+        notNull: {
+          msg: 'gifUrl is required',
         },
       },
     },

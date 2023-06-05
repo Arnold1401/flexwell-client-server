@@ -12,12 +12,13 @@ class BodyPartController {
       }
       const response = await axios.get(url, {
         headers: {
-          'X-RapidAPI-Key': '46223922d4msh2ca5fd58008bf09p191622jsn4e6bf15cc0bd',
+          'X-RapidAPI-Key': '5c42799d42msh719a2d6744e5de4p131f0bjsnf3483da4c75e',
           'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
         },
       });
-      res.json(response.data);
+      res.json(response.data?.slice(0, 13));
     } catch (err) {
+      /* istanbul ignore next */
       next(err);
     }
   }
@@ -30,7 +31,7 @@ class BodyPartController {
         method: 'GET',
         url: `https://exercisedb.p.rapidapi.com/exercises/exercise/${id}`,
         headers: {
-          'X-RapidAPI-Key': '46223922d4msh2ca5fd58008bf09p191622jsn4e6bf15cc0bd',
+          'X-RapidAPI-Key': '5c42799d42msh719a2d6744e5de4p131f0bjsnf3483da4c75e',
           'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
         },
       };

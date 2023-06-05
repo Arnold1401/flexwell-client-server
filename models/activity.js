@@ -1,4 +1,3 @@
-/* istanbul ignore file */
 /* eslint-disable */
 'use strict';
 const {
@@ -18,10 +17,9 @@ module.exports = (sequelize, DataTypes) => {
   Activity.init({
     status: {
       type: DataTypes.ENUM({
-        values: ['Finish', 'Unfinish'],
+        values: ['Finished', 'Unfinished'],
       }),
       allowNull: true,
-      defaultValue: 'Unfinish',
     },
     date: {
       type: DataTypes.DATE,
