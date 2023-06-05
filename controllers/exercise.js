@@ -111,7 +111,7 @@ class AuthController {
       await Exercise.destroy({
         where: { id: req.params.id },
       });
-      res.status(200).json({ message: 'successfull to delete' });
+      res.status(200).json({ message: `id ${data.id} successfuly deleted` });
     } catch (error) {
       next(error);
     }
