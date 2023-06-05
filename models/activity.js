@@ -18,10 +18,9 @@ module.exports = (sequelize, DataTypes) => {
   Activity.init({
     status: {
       type: DataTypes.ENUM({
-        values: ['Finish', 'Unfinish'],
+        values: ['Finished', 'Unfinished'],
       }),
-      allowNull: true,
-      defaultValue: 'Unfinish',
+      allowNull: false,
     },
     date: {
       type: DataTypes.DATE,
