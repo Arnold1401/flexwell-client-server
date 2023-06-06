@@ -19,11 +19,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.ENUM({
         values: ['Finished', 'Unfinished'],
       }),
-<<<<<<< HEAD
-      allowNull: false,
-=======
       allowNull: true,
->>>>>>> create-testing
     },
     date: {
       type: DataTypes.DATE,
