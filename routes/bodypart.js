@@ -1,9 +1,9 @@
 const express = require('express');
 
 const router = express.Router();
-const BodyPartController = require('../controllers/bodypart');
+const bodyPartController = require('../controllers/bodypart');
 
-router.get('/bodyparts', BodyPartController.allBodyParts);
-router.get('/bodyparts/:id', BodyPartController.getBodyPartsById);
+router.get('/bodyparts', bodyPartController.allBodyParts);
+router.get('/bodyparts/:id', bodyPartController.getBodyPartsById);
 
 module.exports = router;
