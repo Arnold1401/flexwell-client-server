@@ -18,8 +18,9 @@ class BodyPartController {
           'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
         },
       });
-      res.json(response.data);
+      res.json(response.data?.slice(0, 13));
     } catch (err) {
+      /* istanbul ignore next */
       next(err);
     }
   }

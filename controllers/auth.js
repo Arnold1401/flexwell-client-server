@@ -65,6 +65,8 @@ class AuthController {
 
       res.status(200).json({
         access_token,
+        username,
+        fullName: user.fullName,
       });
     } catch (error) {
       next(error);

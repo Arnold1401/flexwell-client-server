@@ -1,4 +1,3 @@
-/* istanbul ignore file */
 /* eslint-disable */
 'use strict';
 const {

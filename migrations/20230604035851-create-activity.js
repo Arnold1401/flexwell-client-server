@@ -15,7 +15,7 @@ module.exports = {
         type: Sequelize.ENUM({
           values: ['Finished', 'Unfinished'],
         }),
-        allowNull: false,
+        allowNull: true,
       },
       date: {
         type: Sequelize.DATE,

@@ -3,6 +3,7 @@
     "bodyPartId": "1369",
     "bodyPart": "lower legs",
     "name": "band two legs calf raise - (band under both legs) v. 2",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1369.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 1
@@ -11,6 +12,7 @@
     "bodyPartId": "0009",
     "bodyPart": "chest",
     "name": "leverage machine",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 1
@@ -18,6 +20,7 @@
   {
     "bodyPartId": "0968",
     "bodyPart": "upper arms",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
     "name": "band alternating biceps curl",
     "repetition": 10,
     "totalSet": 3,
@@ -27,6 +30,7 @@
     "bodyPartId": "0987",
     "bodyPart": "upper legs",
     "name": "band one arm single leg split squat",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0987.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 3
@@ -34,6 +38,7 @@
   {
     "bodyPartId": "1410",
     "bodyPart": "upper legs",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1410.gif",
     "name": "barbell lateral lunge",
     "repetition": 10,
     "totalSet": 3,
@@ -43,6 +48,7 @@
     "bodyPartId": "2287",
     "bodyPart": "upper legs",
     "name": "lever alternate leg press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2287.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 3
@@ -51,6 +57,7 @@
     "bodyPartId": "0748",
     "bodyPart": "chest",
     "name": "smith bench press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0748.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 5
@@ -59,6 +66,7 @@
     "bodyPartId": "0050",
     "bodyPart": "chest",
     "name": "barbell incline shoulder raise",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0050.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 5
@@ -67,6 +75,7 @@
     "bodyPartId": "2330",
     "bodyPart": "back",
     "name": "cable lat pulldown full range of motion",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2330.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 5
@@ -75,6 +84,7 @@
     "bodyPartId": "0300",
     "bodyPart": "upper legs",
     "name": "dumbbell deadlift",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0300.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 7
@@ -83,6 +93,7 @@
     "bodyPartId": "1286",
     "bodyPart": "chest",
     "name": "dumbbell one arm chest fly on exercise ball",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1286.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 7
@@ -91,6 +102,7 @@
     "bodyPartId": "0690",
     "bodyPart": "back",
     "name": "seated lower back stretch",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0690.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 7
@@ -99,6 +111,7 @@
     "bodyPartId": "1369",
     "bodyPart": "lower legs",
     "name": "band two legs calf raise - (band under both legs) v. 2",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1369.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 8
@@ -107,6 +120,7 @@
     "bodyPartId": "0009",
     "bodyPart": "chest",
     "name": "leverage machine",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 8
@@ -114,6 +128,7 @@
   {
     "bodyPartId": "0968",
     "bodyPart": "upper arms",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
     "name": "band alternating biceps curl",
     "repetition": 10,
     "totalSet": 3,
@@ -123,6 +138,7 @@
     "bodyPartId": "0987",
     "bodyPart": "upper legs",
     "name": "band one arm single leg split squat",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0987.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 10
@@ -130,6 +146,7 @@
   {
     "bodyPartId": "1410",
     "bodyPart": "upper legs",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1410.gif",
     "name": "barbell lateral lunge",
     "repetition": 10,
     "totalSet": 3,
@@ -139,6 +156,7 @@
     "bodyPartId": "2287",
     "bodyPart": "upper legs",
     "name": "lever alternate leg press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2287.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 10
@@ -147,6 +165,7 @@
     "bodyPartId": "0748",
     "bodyPart": "chest",
     "name": "smith bench press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0748.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 12
@@ -155,6 +174,7 @@
     "bodyPartId": "0050",
     "bodyPart": "chest",
     "name": "barbell incline shoulder raise",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0050.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 12
@@ -163,6 +183,7 @@
     "bodyPartId": "2330",
     "bodyPart": "back",
     "name": "cable lat pulldown full range of motion",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2330.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 12
@@ -171,6 +192,7 @@
     "bodyPartId": "0300",
     "bodyPart": "upper legs",
     "name": "dumbbell deadlift",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0300.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 14
@@ -179,6 +201,7 @@
     "bodyPartId": "1286",
     "bodyPart": "chest",
     "name": "dumbbell one arm chest fly on exercise ball",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1286.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 14
@@ -187,6 +210,7 @@
     "bodyPartId": "0690",
     "bodyPart": "back",
     "name": "seated lower back stretch",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0690.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 14
@@ -195,6 +219,7 @@
     "bodyPartId": "1369",
     "bodyPart": "lower legs",
     "name": "band two legs calf raise - (band under both legs) v. 2",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1369.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 15
@@ -203,6 +228,7 @@
     "bodyPartId": "0009",
     "bodyPart": "chest",
     "name": "leverage machine",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 15
@@ -210,6 +236,7 @@
   {
     "bodyPartId": "0968",
     "bodyPart": "upper arms",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
     "name": "band alternating biceps curl",
     "repetition": 10,
     "totalSet": 3,
@@ -219,6 +246,7 @@
     "bodyPartId": "0987",
     "bodyPart": "upper legs",
     "name": "band one arm single leg split squat",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0987.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 17
@@ -226,6 +254,7 @@
   {
     "bodyPartId": "1410",
     "bodyPart": "upper legs",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1410.gif",
     "name": "barbell lateral lunge",
     "repetition": 10,
     "totalSet": 3,
@@ -235,6 +264,7 @@
     "bodyPartId": "2287",
     "bodyPart": "upper legs",
     "name": "lever alternate leg press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2287.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 17
@@ -243,6 +273,7 @@
     "bodyPartId": "0748",
     "bodyPart": "chest",
     "name": "smith bench press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0748.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 19
@@ -251,6 +282,7 @@
     "bodyPartId": "0050",
     "bodyPart": "chest",
     "name": "barbell incline shoulder raise",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0050.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 19
@@ -259,6 +291,7 @@
     "bodyPartId": "2330",
     "bodyPart": "back",
     "name": "cable lat pulldown full range of motion",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2330.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 19
@@ -267,6 +300,7 @@
     "bodyPartId": "0300",
     "bodyPart": "upper legs",
     "name": "dumbbell deadlift",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0300.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 21
@@ -275,6 +309,7 @@
     "bodyPartId": "1286",
     "bodyPart": "chest",
     "name": "dumbbell one arm chest fly on exercise ball",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1286.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 21
@@ -283,6 +318,7 @@
     "bodyPartId": "0690",
     "bodyPart": "back",
     "name": "seated lower back stretch",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0690.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 21
@@ -291,6 +327,7 @@
     "bodyPartId": "1369",
     "bodyPart": "lower legs",
     "name": "band two legs calf raise - (band under both legs) v. 2",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1369.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 22
@@ -299,6 +336,7 @@
     "bodyPartId": "0009",
     "bodyPart": "chest",
     "name": "leverage machine",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 22
@@ -306,6 +344,7 @@
   {
     "bodyPartId": "0968",
     "bodyPart": "upper arms",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
     "name": "band alternating biceps curl",
     "repetition": 10,
     "totalSet": 3,
@@ -315,6 +354,7 @@
     "bodyPartId": "0987",
     "bodyPart": "upper legs",
     "name": "band one arm single leg split squat",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0987.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 24
@@ -322,6 +362,7 @@
   {
     "bodyPartId": "1410",
     "bodyPart": "upper legs",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1410.gif",
     "name": "barbell lateral lunge",
     "repetition": 10,
     "totalSet": 3,
@@ -331,6 +372,7 @@
     "bodyPartId": "2287",
     "bodyPart": "upper legs",
     "name": "lever alternate leg press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2287.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 24
@@ -339,6 +381,7 @@
     "bodyPartId": "0748",
     "bodyPart": "chest",
     "name": "smith bench press",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0748.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 26
@@ -347,6 +390,7 @@
     "bodyPartId": "0050",
     "bodyPart": "chest",
     "name": "barbell incline shoulder raise",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0050.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 26
@@ -355,6 +399,7 @@
     "bodyPartId": "2330",
     "bodyPart": "back",
     "name": "cable lat pulldown full range of motion",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/2330.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 26
@@ -363,6 +408,7 @@
     "bodyPartId": "0300",
     "bodyPart": "upper legs",
     "name": "dumbbell deadlift",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0300.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 28
@@ -371,6 +417,7 @@
     "bodyPartId": "1286",
     "bodyPart": "chest",
     "name": "dumbbell one arm chest fly on exercise ball",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1286.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 28
@@ -379,6 +426,7 @@
     "bodyPartId": "0690",
     "bodyPart": "back",
     "name": "seated lower back stretch",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0690.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 28
@@ -387,6 +435,7 @@
     "bodyPartId": "1369",
     "bodyPart": "lower legs",
     "name": "band two legs calf raise - (band under both legs) v. 2",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/1369.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 30
@@ -395,6 +444,7 @@
     "bodyPartId": "0009",
     "bodyPart": "chest",
     "name": "leverage machine",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0009.gif",
     "repetition": 10,
     "totalSet": 3,
     "exerciseId": 30
@@ -402,6 +452,7 @@
   {
     "bodyPartId": "0968",
     "bodyPart": "upper arms",
+    "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0968.gif",
     "name": "band alternating biceps curl",
     "repetition": 10,
     "totalSet": 3,
