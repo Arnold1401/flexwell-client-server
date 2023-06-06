@@ -6,6 +6,7 @@ class ExerciseController {
   static async getExercises(req, res, next) {
     try {
       const { type } = req.query;
+      const { id: userId } = req.user;
 
       const exerciseQuery = {
         raw: true,
@@ -18,6 +19,7 @@ class ExerciseController {
       } else {
         exerciseQuery.where = {
           type: 'Exercise',
+          userId,
         };
       }
 
@@ -108,14 +110,54 @@ class ExerciseController {
     }
   }
 
+  static async createExercise(req, res, next) {
+    try {
+      const { id: userId } = req.user;
+      const { name } = req.body;
+      const exercise = await Exercise.create({ name, userId, type: 'Exercise' });
+
+      res.status(201).json({ message: `Exercise with id ${exercise.id} created successfully`, id: exercise.id });
+    } catch (error) {
+      next(error);
+    }
+  }
+
   static async deleteExerciseById(req, res, next) {
     try {
-      const data = await Exercise.findByPk(req.params.id);
-      if (!data) throw { name: 'Not Found' };
+      const { id } = req.params;
+      const { id: userId } = req.user;
+      const exercise = await Exercise.findOne({ id, type: 'Exercise' });
+      if (!exercise) throw { name: 'Data not found' };
+      if (exercise.userId !== userId) throw { name: 'You are not authorized' };
       await Exercise.destroy({
-        where: { id: req.params.id },
+        where: { id },
       });
-      res.status(200).json({ message: `id ${data.id} successfuly deleted` });
+
+      res.status(200).json({ message: `id ${id} successfuly deleted` });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  static async createExerciseDetails(req, res, next) {
+    try {
+      const { id: exerciseId } = req.params;
+      const { exerciseDetails } = req.body;
+
+      const exercise = await Exercise.findByPk(exerciseId);
+      if (!exercise) {
+        throw { name: 'Data not found' };
+      }
+
+      const mappedExerciseDetails = exerciseDetails.map(({
+        name, bodyPart, bodyPartId, gifUrl, totalSet, repetition, weight,
+      }) => ({
+        name, bodyPart, bodyPartId, gifUrl, totalSet, repetition, weight, exerciseId,
+      }));
+
+      await ExerciseDetail.bulkCreate(mappedExerciseDetails);
+
+      res.status(201).json({ message: 'exerciseDetails successfully added' });
     } catch (error) {
       next(error);
     }
@@ -128,17 +170,6 @@ class ExerciseController {
 
   static generateTotalDuration(totalSet) {
     return Math.round(totalSet * 3.5);
-  }
-
-  static async createExercise(req, res, next) {
-    try {
-      const { name } = req.body;
-      await Exercise.create({ name });
-
-      res.status(201).json({ message: ' exercise created successfully' });
-    } catch (error) {
-      next(error);
-    }
   }
 }
 
