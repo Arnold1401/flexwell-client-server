@@ -35,6 +35,10 @@ module.exports = {
         }),
         allowNull: true,
       },
+      dateOfBirth: {
+        type: Sequelize.DATE,
+        allowNull: true,
+      },
       role: {
         type: Sequelize.ENUM({
           values: ['Client', 'Admin'],
