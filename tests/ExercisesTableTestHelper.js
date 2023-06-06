@@ -2,6 +2,10 @@
 const { Exercise } = require('../models');
 
 class ExercisesTableTestHelper {
+  static addExcercise({ name, userId }) {
+    return Exercise.create({ name, userId });
+  }
+
   static addExcercises(exercises) {
     return Exercise.bulkCreate(exercises);
   }

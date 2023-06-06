@@ -126,7 +126,7 @@ class ExerciseController {
     try {
       const { id } = req.params;
       const { id: userId } = req.user;
-      const exercise = await Exercise.findOne({ id, type: 'Exercise' });
+      const exercise = await Exercise.findOne({ where: { id, type: 'Exercise' } });
       if (!exercise) throw { name: 'Data not found' };
       if (exercise.userId !== userId) throw { name: 'You are not authorized' };
       await Exercise.destroy({
@@ -143,11 +143,14 @@ class ExerciseController {
     try {
       const { id: exerciseId } = req.params;
       const { exerciseDetails } = req.body;
+      const { id: userId } = req.user;
 
       const exercise = await Exercise.findByPk(exerciseId);
       if (!exercise) {
         throw { name: 'Data not found' };
       }
+
+      if (exercise.userId !== userId) throw { name: 'You are not authorized' };
 
       const mappedExerciseDetails = exerciseDetails.map(({
         name, bodyPart, bodyPartId, gifUrl, totalSet, repetition, weight,
