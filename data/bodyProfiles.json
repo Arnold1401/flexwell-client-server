@@ -1,6 +1,6 @@
 [
     {
-        "bicep": 35,
+        "biceps": 35,
         "waist": 80,
         "chest": 95,
         "shoulder": 45,
@@ -12,7 +12,7 @@
         "userId": 1
     },
     {
-        "bicep": 38,
+        "biceps": 38,
         "waist": 84,
         "chest": 96,
         "shoulder": 44,
@@ -24,7 +24,7 @@
         "userId": 1
     },
     {
-        "bicep": 40,
+        "biceps": 40,
         "waist": 82,
         "chest": 97,
         "shoulder": 43,
@@ -36,7 +36,7 @@
         "userId": 1
     },
     {
-        "bicep": 42,
+        "biceps": 42,
         "waist": 83,
         "chest": 98,
         "shoulder": 45,
@@ -48,7 +48,7 @@
         "userId": 1
     },
     {
-        "bicep": 44,
+        "biceps": 44,
         "waist": 84,
         "chest": 96,
         "shoulder": 46,
@@ -60,7 +60,7 @@
         "userId": 1
     },
     {
-        "bicep": 45,
+        "biceps": 45,
         "waist": 86,
         "chest": 94,
         "shoulder": 45,
@@ -72,7 +72,7 @@
         "userId": 1
     },
     {
-        "bicep": 46,
+        "biceps": 46,
         "waist": 85,
         "chest": 96,
         "shoulder": 47,
@@ -84,7 +84,7 @@
         "userId": 1
     },
     {
-        "bicep": 48,
+        "biceps": 48,
         "waist": 87,
         "chest": 97,
         "shoulder": 48,
@@ -96,7 +96,7 @@
         "userId": 1
     },
     {
-        "bicep": 49,
+        "biceps": 49,
         "waist": 88,
         "chest": 98,
         "shoulder": 47,
@@ -108,7 +108,7 @@
         "userId": 1
     },
     {
-        "bicep": 50,
+        "biceps": 50,
         "waist": 89,
         "chest": 99,
         "shoulder": 48,
