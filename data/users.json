@@ -1,10 +1,16 @@
 [
     {
+        "username": "tani",
+        "password": "qwerty69",
+        "email": "itan69@gmail.com",
         "fullName": "Itan Sutarlan",
         "gender": "Male",
         "dataOfBirth": "2005-01-04"
     },
     {
+        "username": "donald69",
+        "password": "qwerty69",
+        "email": "donald69@gmail.com",
         "fullName": "Arnold Pramudipta",
         "gender": "Male",
         "dataOfBirth": "2009-09-09"
