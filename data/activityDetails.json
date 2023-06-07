@@ -1,0 +1,22 @@
+[
+    {
+        "set": 2,
+        "repetition": 10,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 1,
+        "exerciseDetailId": 1
+    },
+    {
+        "set": 3,
+        "repetition": 10,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 2,
+        "activityId": 1,
+        "exerciseDetailId": 1
+    }
+]

@@ -1,12 +1,12 @@
 [
     {
-      "fullName": "Itan Sutarlan",
-      "gender": "Male",
-      "dataOfBirth": "2005-01-04"
+        "fullName": "Itan Sutarlan",
+        "gender": "Male",
+        "dataOfBirth": "2005-01-04"
     },
     {
-      "fullName": "Arnold Pramudipta",
-      "gender": "Male",
-      "dataOfBirth": "2009-09-09"
+        "fullName": "Arnold Pramudipta",
+        "gender": "Male",
+        "dataOfBirth": "2009-09-09"
     }
-  ]
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 10,
+        "userId": 1,
+        "exerciseId": 1
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 2,
+        "exerciseId": 3
+    }
+]

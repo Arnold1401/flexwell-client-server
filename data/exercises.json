@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Introduction to Weightlifting",
+        "type": "Challenge",
+        "userId": 1
+    },
+    {
+        "name": "Rest and Recovery",
+        "type": "Challenge",
+        "userId": 2
+    }
+]
