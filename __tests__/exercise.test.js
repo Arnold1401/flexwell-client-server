@@ -51,28 +51,6 @@ describe('/pub/exercises endpoint', () => {
   describe('when GET /pub/exercises', () => {
     it('should response 200 if headers access_token is valid', async () => {
       const response = await request(app)
-        .get('/pub/exercises?type=Challenge')
-        .set('access_token', validToken);
-
-      const { body } = response;
-      expect(response.status).toEqual(200);
-      expect(body).toBeDefined();
-      expect(body).toBeInstanceOf(Array);
-    });
-
-    it('should response 200 when query params type is equal to Challenge and if headers access_token is valid', async () => {
-      const response = await request(app)
-        .get('/pub/exercises?type=Challenge')
-        .set('access_token', validToken);
-
-      const { body } = response;
-      expect(response.status).toEqual(200);
-      expect(body).toBeDefined();
-      expect(body).toBeInstanceOf(Array);
-    });
-
-    it('should response 200 if headers access_token is valid', async () => {
-      const response = await request(app)
         .get('/pub/exercises')
         .set('access_token', validToken);
 
@@ -84,7 +62,7 @@ describe('/pub/exercises endpoint', () => {
 
     it('should response 200 when query params type is equal to Challenge and if headers access_token is valid', async () => {
       const response = await request(app)
-        .get('/pub/exercises')
+        .get('/pub/exercises?type=Challenge')
         .set('access_token', validToken);
 
       const { body } = response;
@@ -97,16 +75,6 @@ describe('/pub/exercises endpoint', () => {
       const response = await request(app)
         .get('/pub/exercises?type=Challenge')
         .set('access_token', invalidToken);
-
-      expect(response.status).toEqual(401);
-      expect(response.body).toEqual({
-        message: 'Invalid token',
-      });
-    });
-
-    it('should response 401 when data is not login yet', async () => {
-      const response = await request(app)
-        .get('/pub/exercises?type=Challenge');
 
       expect(response.status).toEqual(401);
       expect(response.body).toEqual({
