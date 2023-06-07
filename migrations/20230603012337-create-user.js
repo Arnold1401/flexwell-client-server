@@ -1,4 +1,3 @@
-/* istanbul ignore file */
 /* eslint-disable */
 'use strict';
 /** @type {import('sequelize-cli').Migration} */
