@@ -1,6 +1,8 @@
 /* eslint-disable no-param-reassign */
 const { Op } = require('sequelize');
-const { Exercise, Activity, ExerciseDetail } = require('../models');
+const {
+  Exercise, Activity, ExerciseDetail, ActivityDetail, sequelize,
+} = require('../models');
 
 class ExerciseController {
   static async getExercises(req, res, next) {
@@ -161,6 +163,45 @@ class ExerciseController {
       await ExerciseDetail.bulkCreate(mappedExerciseDetails);
 
       res.status(201).json({ message: 'exerciseDetails successfully added' });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  static async createExerciseActivity(req, res, next) {
+    try {
+      const {
+        totalSet, repetition, duration, weight, exerciseDetailId,
+      } = req.body;
+      const { id: userId } = req.user;
+      const { id: exerciseId } = req.params;
+
+      await sequelize.transaction(async (t) => {
+        function upsert(values, condition) {
+          return Activity
+            .findOne({ where: condition, transaction: t })
+            .then((obj) => {
+              // update
+              if (obj) {
+                obj.update({ ...obj, duration: +obj.duration + +duration });
+                return obj;
+              }
+              // insert
+              return Activity.create(values, { transaction: t });
+            });
+        }
+        const activity = await upsert({
+          duration, status: 'Finished', exerciseId, userId, date: new Date(),
+        }, { exerciseId, userId });
+
+        const activityDetail = await ActivityDetail.create({
+          totalSet, repetition, duration, status: 'Finished', weight, userId, activityId: activity.id, exerciseDetailId,
+        }, { transaction: t });
+
+        return activityDetail;
+      });
+
+      res.status(201).json({ message: `Activity of exercise with id ${exerciseId} created successfully` });
     } catch (error) {
       next(error);
     }

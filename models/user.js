@@ -84,9 +84,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },
     gender: {
-      type: DataTypes.ENUM({
-        values: ['Male', 'Female'],
-      }),
+      type: DataTypes.STRING,
       allowNull: true,
     },
     dateOfBirth: {
@@ -94,9 +92,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: true,
     },
     role: {
-      type: DataTypes.ENUM({
-        values: ['Client', 'Admin'],
-      }),
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notEmpty: {
