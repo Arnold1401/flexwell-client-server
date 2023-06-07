@@ -1,0 +1,72 @@
+[
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 10,
+        "userId": 1,
+        "exerciseId": 1
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 2
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 3
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 4
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 5
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 6
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 7
+    },
+    {
+        "status": "Finished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 8
+    },
+    {
+        "status": "Unfinished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 9
+    },
+    {
+        "status": "Unfinished",
+        "date": "2023-06-07",
+        "duration": 15,
+        "userId": 1,
+        "exerciseId": 10
+    }
+]

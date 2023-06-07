@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Adrenaline Rush",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Get Sweaty",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Power Through",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Sweat It Out",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Get Pumped",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Full Throttle",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Push Yourself",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Pulse the Gym",
+        "type": "Exercise",
+        "userId": 1
+    },
+    {
+        "name": "Full Throttle",
+        "type": "Exercise",
+        "userId": 1
+    }
+]
