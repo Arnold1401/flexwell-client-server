@@ -11,9 +11,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       status: {
-        type: Sequelize.ENUM({
-          values: ['Finished', 'Unfinished'],
-        }),
+        type: Sequelize.STRING,
         allowNull: true,
       },
       date: {
