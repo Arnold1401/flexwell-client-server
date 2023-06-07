@@ -1,8 +1,10 @@
 /* istanbul ignore file */
 /* eslint-disable */
 'use strict';
+const { hashPassword } = require('../helpers/bcrypt');
 const data = require('../data/users.json');
 data.forEach(el => {
+  el.password = hashPassword(el.password);
   el.createdAt = el.updatedAt = new Date();
 })
 /** @type {import('sequelize-cli').Migration} */
