@@ -1,22 +1,102 @@
 [
     {
-        "set": 2,
+        "totalSet": 2,
         "repetition": 10,
         "duration": 15,
         "status": "Finished",
         "weight": 60,
         "userId": 1,
         "activityId": 1,
-        "exerciseDetailId": 1
+        "exerciseDetailId": 56
     },
     {
-        "set": 3,
+        "totalSet": 3,
+        "repetition": 15,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 1,
+        "exerciseDetailId": 57
+    },
+    {
+        "totalSet": 4,
         "repetition": 10,
         "duration": 15,
         "status": "Finished",
         "weight": 60,
-        "userId": 2,
+        "userId": 1,
         "activityId": 1,
-        "exerciseDetailId": 1
+        "exerciseDetailId": 58
+    },
+    {
+        "totalSet": 3,
+        "repetition": 10,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 2,
+        "exerciseDetailId": 59
+    },
+    {
+        "totalSet": 3,
+        "repetition": 15,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 3,
+        "exerciseDetailId": 60
+    },
+    {
+        "totalSet": 3,
+        "repetition": 15,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 4,
+        "exerciseDetailId": 61
+    },
+    {
+        "totalSet": 3,
+        "repetition": 15,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 5,
+        "exerciseDetailId": 62
+    },
+    {
+        "totalSet": 2,
+        "repetition": 15,
+        "duration": 15,
+        "status": "Finished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 6,
+        "exerciseDetailId": 62
+    },
+    {
+        "totalSet": 3,
+        "repetition": 15,
+        "duration": 15,
+        "status": "Unfinished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 9,
+        "exerciseDetailId": 63
+    },
+    {
+        "totalSet": 2,
+        "repetition": 10,
+        "duration": 15,
+        "status": "Unfinished",
+        "weight": 60,
+        "userId": 1,
+        "activityId": 10,
+        "exerciseDetailId": 64
     }
 ]
