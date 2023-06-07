@@ -37,6 +37,9 @@ class ProfileConstroller {
       attributes: {
         excludes: ['createdAt', 'updatedAt'],
       },
+      order: [
+        ['date', 'DESC'],
+      ],
     });
 
     res.json(bodyProfiles);

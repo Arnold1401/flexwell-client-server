@@ -29,9 +29,7 @@ module.exports = (sequelize, DataTypes) => {
       },
     },
     type: {
-      type: DataTypes.ENUM({
-        values: ['Challenge', 'Exercise'],
-      }),
+      type: DataTypes.STRING,
       allowNull: true,
       defaultValue: 'Exercise',
     },

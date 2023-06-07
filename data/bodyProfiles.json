@@ -1,0 +1,122 @@
+[
+    {
+        "biceps": 35,
+        "waist": 80,
+        "chest": 95,
+        "shoulder": 45,
+        "thigh": 48,
+        "calf": 36,
+        "height": 175,
+        "weight": 60,
+        "date": "2023-06-07",
+        "userId": 1
+    },
+    {
+        "biceps": 38,
+        "waist": 84,
+        "chest": 96,
+        "shoulder": 44,
+        "thigh": 50,
+        "calf": 38,
+        "height": 175,
+        "weight": 62,
+        "date": "2023-06-08",
+        "userId": 1
+    },
+    {
+        "biceps": 40,
+        "waist": 82,
+        "chest": 97,
+        "shoulder": 43,
+        "thigh": 51,
+        "calf": 40,
+        "height": 175,
+        "weight": 63,
+        "date": "2023-06-09",
+        "userId": 1
+    },
+    {
+        "biceps": 42,
+        "waist": 83,
+        "chest": 98,
+        "shoulder": 45,
+        "thigh": 53,
+        "calf": 42,
+        "height": 175,
+        "weight": 65,
+        "date": "2023-06-10",
+        "userId": 1
+    },
+    {
+        "biceps": 44,
+        "waist": 84,
+        "chest": 96,
+        "shoulder": 46,
+        "thigh": 52,
+        "calf": 40,
+        "height": 175,
+        "weight": 65,
+        "date": "2023-06-11",
+        "userId": 1
+    },
+    {
+        "biceps": 45,
+        "waist": 86,
+        "chest": 94,
+        "shoulder": 45,
+        "thigh": 54,
+        "calf": 41,
+        "height": 175,
+        "weight": 67,
+        "date": "2023-06-12",
+        "userId": 1
+    },
+    {
+        "biceps": 46,
+        "waist": 85,
+        "chest": 96,
+        "shoulder": 47,
+        "thigh": 53,
+        "calf": 42,
+        "height": 175,
+        "weight": 65,
+        "date": "2023-06-13",
+        "userId": 1
+    },
+    {
+        "biceps": 48,
+        "waist": 87,
+        "chest": 97,
+        "shoulder": 48,
+        "thigh": 54,
+        "calf": 43,
+        "height": 175,
+        "weight": 66,
+        "date": "2023-06-14",
+        "userId": 1
+    },
+    {
+        "biceps": 49,
+        "waist": 88,
+        "chest": 98,
+        "shoulder": 47,
+        "thigh": 56,
+        "calf": 44,
+        "height": 175,
+        "weight": 64,
+        "date": "2023-06-15",
+        "userId": 1
+    },
+    {
+        "biceps": 50,
+        "waist": 89,
+        "chest": 99,
+        "shoulder": 48,
+        "thigh": 60,
+        "calf": 42,
+        "height": 175,
+        "weight": 65,
+        "date": "2023-06-16",
+        "userId": 1
+    }    
+]

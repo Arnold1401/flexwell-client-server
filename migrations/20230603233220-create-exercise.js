@@ -15,9 +15,7 @@ module.exports = {
         allowNull: false,
       },
       type: {
-        type: Sequelize.ENUM({
-          values: ['Challenge', 'Exercise'],
-        }),
+        type: Sequelize.STRING,
         allowNull: true,
         defaultValue: 'Exercise',
       },

@@ -1,0 +1,62 @@
+[
+    {
+        "bodyPartId": "3224",
+        "bodyPart": "cardio",
+        "name": "jack jump",
+        "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/-xeWErCyb=9oSU",
+        "repetition": 10,
+        "totalSet": 3,
+        "exerciseId": 31,
+        "weight": 60
+    },
+    {
+        "bodyPartId": "1297",
+        "bodyPart": "chest",
+        "name": "isometric chest squeeze",
+        "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/S+RYxHFUDH1WFf",
+        "repetition": 10,
+        "totalSet": 3,
+        "exerciseId": 32,
+        "weight": 60
+    },
+    {
+        "bodyPartId": "0518",
+        "bodyPart": "lower arms",
+        "name": "kettlebell alternating hang clean",
+        "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/N7hGm7JgTj6Yr4",
+        "repetition": 10,
+        "totalSet": 5,
+        "exerciseId": 33,
+        "weight": 60
+    },
+    {
+        "bodyPartId": "1419",
+        "bodyPart": "upper legs",
+        "name": "iron cross stretch",
+        "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/_y6ZXd3iseLXsn",
+        "repetition": 10,
+        "totalSet": 3,
+        "exerciseId": 34,
+        "weight": 60
+    },
+    {
+        "bodyPartId": "0497",
+        "bodyPart": "back",
+        "name": "inverted row v. 2",
+        "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/-4ZqwKDuNO0czk",
+        "repetition": 10,
+        "totalSet": 3,
+        "exerciseId": 35,
+        "weight": 60
+    },
+    {
+        "bodyPartId": "1564",
+        "bodyPart": "upper legs",
+        "name": "intermediate hip flexor and quad stretch",
+        "gifUrl": "https://edbv2-ff7foj6vca-uc.a.run.app/image/uZJ_Vx4QubpDAw",
+        "repetition": 10,
+        "totalSet": 3,
+        "exerciseId": 36,
+        "weight": 60
+    }
+]
