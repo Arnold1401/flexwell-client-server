@@ -43,5 +43,10 @@
         "name": "Full Throttle",
         "type": "Exercise",
         "userId": 1
+    },
+    {
+        "name": "Pulse the Body",
+        "type": "Exercise",
+        "userId": 1
     }
 ]
