@@ -1,4 +1,3 @@
-/* istanbul ignore file */
 /* eslint-disable */
 'use strict';
 /** @type {import('sequelize-cli').Migration} */
@@ -33,6 +32,10 @@ module.exports = {
         type: Sequelize.ENUM({
           values: ['Male', 'Female'],
         }),
+        allowNull: true,
+      },
+      dateOfBirth: {
+        type: Sequelize.DATE,
         allowNull: true,
       },
       role: {
