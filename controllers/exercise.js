@@ -183,7 +183,7 @@ class ExerciseController {
             .then((obj) => {
               // update
               if (obj) {
-                obj.update({ ...obj, duration: +obj.duration + +duration });
+                obj.update({ ...obj, status: 'Finished', duration: +obj.duration + +duration });
                 return obj;
               }
               // insert
