@@ -1,70 +1,70 @@
 [
     {
         "status": "Finished",
-        "date": "2023-06-07",
+        "date": "2023-06-06",
         "duration": 10,
         "userId": 1,
         "exerciseId": 31
     },
     {
         "status": "Finished",
-        "date": "2023-06-06",
+        "date": "2023-06-05",
         "duration": 15,
         "userId": 1,
         "exerciseId": 32
     },
     {
         "status": "Finished",
-        "date": "2023-06-05",
+        "date": "2023-06-04",
         "duration": 15,
         "userId": 1,
         "exerciseId": 33
     },
     {
         "status": "Finished",
-        "date": "2023-06-04",
+        "date": "2023-06-03",
         "duration": 15,
         "userId": 1,
         "exerciseId": 34
     },
     {
         "status": "Finished",
-        "date": "2023-06-03",
+        "date": "2023-06-02",
         "duration": 15,
         "userId": 1,
         "exerciseId": 35
     },
     {
         "status": "Finished",
-        "date": "2023-06-02",
+        "date": "2023-06-01",
         "duration": 15,
         "userId": 1,
         "exerciseId": 36
     },
     {
         "status": "Finished",
-        "date": "2023-06-01",
+        "date": "2023-05-31",
         "duration": 15,
         "userId": 1,
         "exerciseId": 37
     },
     {
         "status": "Finished",
-        "date": "2023-05-31",
+        "date": "2023-05-30",
         "duration": 15,
         "userId": 1,
         "exerciseId": 38
     },
     {
         "status": "Unfinished",
-        "date": "2023-05-30",
+        "date": "2023-05-29",
         "duration": 15,
         "userId": 1,
         "exerciseId": 39
     },
     {
         "status": "Unfinished",
-        "date": "2023-05-29",
+        "date": "2023-05-28",
         "duration": 15,
         "userId": 1,
         "exerciseId": 40

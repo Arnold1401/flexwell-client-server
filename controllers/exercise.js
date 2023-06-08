@@ -59,8 +59,8 @@ class ExerciseController {
       exercises.forEach((ex) => {
         const activity = activities.find((act) => act.exerciseId === ex.id);
         const exerciseDetail = exerciseDetails.filter((exc) => exc.exerciseId === ex.id);
-        ex.exercises = exerciseDetail || null;
-        ex.activity = activity || null;
+        ex.exercises = exerciseDetail || [];
+        ex.activity = activity || {};
         const totalSet = ExerciseController.generateTotalSet(exerciseDetail);
         ex.totalSet = totalSet;
         ex.totalDuration = ExerciseController.generateTotalDuration(totalSet);
@@ -105,7 +105,7 @@ class ExerciseController {
         },
       });
       exercise = exercise.toJSON();
-      exercise.activity = activity || null;
+      exercise.activity = activity || {};
       res.json(exercise);
     } catch (error) {
       next(error);
